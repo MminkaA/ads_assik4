@@ -30,7 +30,7 @@ public class Main {
 
 
 
-        System.out.println("BFS:");
+        System.out.println("BreadthFirstSearch:");
         Search<String> bfs = new BreadthFirstSearch<>(graph, "Almaty");
         outputPath(bfs, "Kyzylorda");
     }
